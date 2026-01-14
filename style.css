@@ -1,0 +1,48 @@
+body { margin: 0; font-family: Arial, sans-serif; }
+
+.banner {
+    background-image: url('images/background.jpg'); /* Thay bằng ảnh của bạn */
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    width: 250px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.icon {
+    width: 40px; height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.blue { background-color: #007bff; color: white; }
+.green { background-color: #28a745; color: white; }
+.orange { background-color: #ffc107; color: white; }
+
+button {
+    border: none;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-blue { background-color: #007bff; }
+.btn-green { background-color: #28a745; }
+.btn-orange { background-color: #ffc107; }
